@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>D.S.A</h1>
+    <div class="dropdown">
+      <button class="dropbtn">Menú</button>
+      <div class="dropdown-content">
+        <a href="#">Favoritos</a>
+        <a href="#">Cuenta</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div id="buttons-container">
+      <button id="mecanicos" onclick="showMap('mecanicos')">Mecánicos</button>
+      <button id="hospitales" onclick="showMap('hospitales')">Hospitales</button>
+      <button id="comisarias" onclick="showMap('comisarias')">Comisarías</button>
+    </div>
+    <button id="back-button" style="display: none;" onclick="goBack()">Atrás</button>
+    <div id="map-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
