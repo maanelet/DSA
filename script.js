@@ -20,3 +20,8 @@ function showMap(location) {
   }
 }
 
+function goBack() {
+  buttonsContainer.style.display = "flex";
+  backButton.style.display = "none";
+  mapContainer.innerHTML = "";
+}
