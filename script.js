@@ -25,3 +25,9 @@ function goBack() {
   backButton.style.display = "none";
   mapContainer.innerHTML = "";
 }
+
+function goBack() {
+  buttonsContainer.style.display = "flex";
+  backButton.style.display = "none";
+  mapContainer.innerHTML = "";
+}
